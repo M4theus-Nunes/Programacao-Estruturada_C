@@ -176,3 +176,14 @@ void converter_string()
 
     return;
 }
+
+
+//1 strchr(), localiza a primeira ocorrência de um caractere dentro de uma string
+
+//2 strrchr(), localiza a última ocorrência de um caractere dentro de uma string
+
+//3 atoi(), converte uma string que representa um número para um valor do tipo real
+
+//4 atof(), converte uma string que representa um número de ponto flutuante para um valor do tipo double
+
+//5 sprintf(), permite formatar strings para exibição na tela, utilizando especificadores de formato como %s, %d, %f
