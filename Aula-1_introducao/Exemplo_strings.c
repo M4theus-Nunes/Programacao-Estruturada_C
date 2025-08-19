@@ -7,6 +7,10 @@ int main()
     char str1[50] = "Programar";
     char str2[50] = " em C";
     char str3[50];
+    char str4[50];
+
+    scanf(" %[^\n]", &str4); // TATICA PRA NAO TER Q USAR FGETS
+    
 
     // 1. strlen - tamanho da string (sem contar o '\0')
     printf("Tamanho de str1: %lu\n", strlen(str1));
@@ -37,7 +41,9 @@ int main()
     else if (strcmp("abc", "abc") > 0)
     {
         printf("string 1 maior que 2");
-    }else{
+    }
+    else
+    {
         printf("string 1 menor que 2");
     }
 

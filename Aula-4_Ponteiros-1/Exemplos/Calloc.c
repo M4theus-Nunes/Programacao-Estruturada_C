@@ -4,7 +4,7 @@
 int main() {
     int n = 5;
     int *vetor;
-
+ 
     // Aloca memória para 5 inteiros e inicializa com 0
     vetor = (int *) calloc(n, sizeof(int));
     if (vetor == NULL) {
